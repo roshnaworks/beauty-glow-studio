@@ -132,3 +132,47 @@
     nav ul{display:none;}
     .hero h1{font-size:2.3rem;}
   }
+  @media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .services-grid,
+  .why-grid,
+  .testimonials-grid,
+  .gallery-grid,
+  .contact-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img img,
+  .about-grid img,
+  .features img {
+    height: auto;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+}
